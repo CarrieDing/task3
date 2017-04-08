@@ -1,0 +1,81 @@
+body{
+    background-color: #eff0f4;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 3rem;
+    background-color:#68cdd5 ;
+    margin-top: 0;
+    position: relative;/*保证头部中间button位置固定*/
+}
+.common{
+    width: 32%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+}
+.closeBtn{
+    float: left;
+    text-align: left;
+}
+.loginBtn{
+   /*前三行 保证中间 登录 居中显示*/
+    position: absolute;
+    margin:auto;
+    left:0;
+    right: 0;
+}
+.registerBtn{
+    float: right;
+    text-align: right;
+}
+.formStyle{
+    width: 100%;
+    height: 10rem;
+    font-size: 1rem;
+    text-align: center;
+}
+.inputStyle{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    margin-top: .5rem;
+}
+img{
+    float: left;
+    height: 60%;
+    padding:1rem 1rem 1rem 1rem;
+}
+.message{
+    float: left;
+    height: 50%;
+    width: 75%;
+    margin-top: 1rem;
+    border-color: transparent;
+    border-left:1px solid #b3b3b3;
+    text-indent: 1rem;
+    font-size: 1rem;
+    outline: none;
+}
+.submitBtn{
+    background-color:#68cdd5 ;
+    width: 100%;
+    border: none;
+    height: 3rem;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+}
+.retrieve{
+    float: right;
+    margin-top: 7rem;
+}
+a{
+    text-decoration: none;
+}
